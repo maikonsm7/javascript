@@ -9,3 +9,5 @@ const prod2 = {
     preco: 79.90
 }
 console.log(prod2)
+
+// delete prod2.nome // deletar um atributo do objeto
