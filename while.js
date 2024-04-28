@@ -10,3 +10,5 @@ while(opcao != 2){
 }
 
 console.log('Final')
+
+// a diferença do while e do while é que: no do while garante pelo menos 1 iteração no laço.
