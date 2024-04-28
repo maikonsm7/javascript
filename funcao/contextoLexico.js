@@ -10,4 +10,4 @@ function exec(){
 }
 
 exec() 
-// o resultado é Global pois o método "minhaFuncao" carregar os dados do contexto em que foi criada no momento que foi declarada.
+// o resultado é Global pois o método "minhaFuncao" carregar o contexto em que foi criada no momento que foi declarada.
