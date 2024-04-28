@@ -1,8 +1,8 @@
 // Função factory é uma função que sempre retorna um novo objeto
-function criarPessoa(n, i){
+function criarPessoa(nome, idade){
     return {
-        nome: n,
-        idade: i,
+        nome,
+        idade,
         endereço: '...'
     }
 }
