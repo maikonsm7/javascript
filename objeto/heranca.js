@@ -1,3 +1,4 @@
+// Herança em JavaScript se dá por meio de cadeias de protótipos (Prototype chain)
 const pai = {
     nome: 'Marcos',
     sobrenome: 'Silva'
