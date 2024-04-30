@@ -37,3 +37,11 @@ const carro = Object.preventExtensions({
 })
 carro.modelo = 'TOP'
 console.log(carro)
+
+// selar objeto -> não pode remover e nem adicionar, epenas modificar os valores dos atributos
+const cliente = {nome: 'Ana', idade: 20}
+Object.seal(cliente)
+cliente.altura = 1.80
+cliente.nome = 'Matheus'
+delete cliente.nome
+console.log(cliente)
