@@ -27,3 +27,8 @@ Object.setPrototypeOf(ferrari, carro)
 
 ferrari.acelerar(100)
 console.log(ferrari.status())
+
+// no For in é exibido todos os atributos e métodos, inclusive os que foram herdados.
+for(i in ferrari){
+    console.log(i)
+}
