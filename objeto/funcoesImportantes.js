@@ -28,3 +28,12 @@ console.log(dest)
 Object.freeze(dest)
 dest.a = 20
 console.log(dest)
+
+// Não permitir adicionar mais atributos no objeto
+// Permite remover, mas não adicionar
+const carro = Object.preventExtensions({
+    nome: 'BMW',
+    cor: 'Azul'
+})
+carro.modelo = 'TOP'
+console.log(carro)
