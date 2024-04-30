@@ -12,4 +12,3 @@ console.log(filha2)
 for(let key in filha1){
     filha1.hasOwnProperty(key) ? console.log(key) : console.log(`Por herança: ${key}`)
 }
-
