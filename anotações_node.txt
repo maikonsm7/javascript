@@ -1,0 +1,7 @@
+*** Scripts
+npm i -> instalar os pacotes que constam no package.json
+npm i -g nodemon -> para instalar algum pacote globalmente basta usar a flag "-g"
+
+*** Pacotes
+nodemon -> reinicia o serviço a cada modificação
+lodash -> funções gerais como gerar número aleatório
