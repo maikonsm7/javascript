@@ -1,5 +1,8 @@
 *** Scripts
 npm i -> instalar os pacotes que constam no package.json
+npm i --save nodemon -> instala o pacote e salva também no package.json
+npm init -> criar um projeto manualmente
+npm init -y -> criar um projeto automaticamente
 npm i -g nodemon -> para instalar algum pacote globalmente basta usar a flag "-g"
 
 *** Pacotes
