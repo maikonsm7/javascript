@@ -10,4 +10,4 @@ nodemon -> reinicia o serviço a cada modificação
 lodash -> funções gerais como gerar número aleatório
 express -> framework para contruir webservices
 body-parser -> resolve os problemas de body-parser
-schedule -> agendador de tarefas do node
+node-schedule -> agendador de tarefas do node
