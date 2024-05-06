@@ -12,3 +12,5 @@ function falarDepoiDe(segundos, frase){
 falarDepoiDe(3, 'Boa noite!')
 .then(frase => console.log(frase))
 //.catch(erro => console.log('Erro novo: ', erro))// tatar o erro caso a callbakc reject seja chamada
+
+console.log('executar') // executa esse primeiramente
